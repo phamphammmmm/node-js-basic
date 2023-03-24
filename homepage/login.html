@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="login.css">\
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
+            el='stylesheet'>
+        <body>
+            <div class="overlay">
+                <form>
+                    <div class="con">
+                        <header class="header-form">
+                            <h2>Log in</h2>
+                            <p>login here using your username and password</p>
+                        </header>
+                        <br>
+                        <div class="field-set">
+                            <!--User name-->
+                            <span class="input-item">
+                                <i class="bx bx-user-circle"></i>
+                            </span>
+                            <!--User name input-->
+                            <input class="form-input" id="txt-input" type="text"
+                                placeholder="UserName" required>
+                            <br>
+                            <!--Password-->
+                            <span class="input-item">
+                                <i class="bx"></i>
+                            </span>
+                            <!--Password input-->
+                            <input class="form-input" id="pws" type="password"
+                                name="password" placeholder="Password" requried>
+                            <!--Show/hidden password-->
+                            <span>
+                                <i class="fa fa-eye" aria-hidden="true" id="eye"
+                                    type="button"></i>
+                            </span>
+                            <br>
+                            <!--Email-->
+                            <span class="input-item">
+                                <i class="bx bx-envelope"></i>
+                            </span>
+                            <input class="fomr-input" id="email" type="email"
+                                name="email" placeholder="@email" required>
+                            <!--button-->
+                            <!--button log in-->
+                            <button class="log-in" onclick="return login()">LogIn</button>
+                            <div class="row form-group">
+                                <div class="col text-right">
+                                </div>
+                                <div class="alert">
+                                    <div id="error" style="color: red;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--button other-->
+                        <div class="other">
+                            <!--button forgot-->
+                            <button class="btn submits ftgt-pass">Forgot
+                                Password</button>
+                            <!--Sign up button-->
+                            <button class="btn submits sign-up"
+                                onclick="return signup()">Sign Up<i class="fa
+                                    fa-user-plus"
+                                    aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <script src="login.js"></script>
+        </body>
+    </html>
