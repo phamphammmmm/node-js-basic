@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+:root {
+  --primary-color: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right, white);
+  height: 100vh;
+  font-family: "Poppins";
+}
+.header1 {
+  background: #edede9;
+  width: 1117px;
+  height: 45px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  margin-right: 5px;
+}
+.stranger {
+  margin-right: 5px;
+}
+.end {
+  float: right;
+  display: flex;
+  margin-right: 15px;
+  color: black;
+  margin-top: -35px;
+}
+
+.frist ul {
+  list-style: none; /* Loại bỏ kiểu danh sách mặc định */
+  padding: 0; /* Loại bỏ padding mặc định của danh sách */
+  margin: 0; /* Loại bỏ margin mặc định của danh sách */
+}
+
+.frist li {
+  display: inline-block; /* Hiển thị các phần tử li theo kiểu inline-block */
+  vertical-align: middle; /* Canh giữa các phần tử li theo chiều dọc */
+}
+
+.frist-logo {
+  font-size: 30px;
+  margin: 0 10px 0 10px;
+}
+.header2 {
+  width: 1117px;
+  height: 56px;
+  display: flex;
+  text-align: center;
+}
+
+.home {
+  display: flex;
+  width: 200px;
+  margin-left: -10px;
+}
+.home i {
+  margin-left: 20px;
+  font-size: 40px;
+}
+.home h2 {
+  margin-top: 10px;
+}
+
+.second {
+  display: flex;
+  margin: 10px 100px 0 100px;
+}
+.second ul {
+  display: flex;
+}
+.second li {
+  padding: 5px 5px;
+  text-decoration: none;
+  list-style-type: none;
+}
+.search {
+  border-radius: 25px;
+  border: 1px solid black;
+  width: 209px;
+  height: 35px;
+  margin-left: 100px;
+  cursor: text;
+  z-index: 1;
+  color: white;
+}
+.search_input {
+  border: none;
+}
+
+.buy i {
+  font-size: 30px;
+  padding: 10px;
+}
+.buy {
+  width: 170px;
+}
+/*---main---*/
+.main {
+  width: 1117px;
+  height: 950px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-search {
+  text-align: center;
+  padding: 50px 0 120px 0px;
+  margin-top: 600px;
+}
+.searching-input {
+  height: 55px;
+  width: 398px;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+}
+.body-search {
+  padding: 20px 20px;
+  width: 398px;
+  border: 2px solid white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/*--QUICK ASSISTS--*/
+.main-frist {
+  padding: 20px 60px 20px;
+}
+.main-second,
+.main-third {
+  display: flex;
+  padding: 20px 60px 20px;
+}
+.col {
+  width: 334px;
+  height: 200px;
+}
+.col-title ul {
+  display: flex;
+}
+.col-title li {
+  padding: 5px 5px;
+  text-decoration: none;
+  list-style-type: none;
+}
+.contact-us {
+  display: flex;
+  flex-direction: column;
+}
+.contact-us-title {
+  padding: 40px 0px 10px;
+  float: left;
+}
+.spacing {
+  border-bottom: 1.5px solid lightgray;
+}
+.row-contact-us {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 80px;
+}
+.contact-us-content {
+  display: flex;
+}
+.col-contact-us {
+  width: 334px;
+  height: 242px;
+  margin-top: 20px;
+  text-align: center;
+}
+.bxs-phone:before {
+  font-size: 64px;
+  content: "\ee66";
+}
+.bxl-messenger::before {
+  font-size: 64px;
+  content: "\e957";
+}
+.bxs-edit-location:before {
+  font-size: 64px;
+  content: "\ed9d";
+}
+
+/*--footer*/
+.footer {
+  height: 312px;
+  width: 1117px;
+  background: #111;
+}
+.group-link {
+  display: flex;
+  width: 897px;
+  height: 182px;
+  padding: 40px 0px 0px 40px;
+}
+.option,
+.get-help,
+.about-nike {
+  width: 224px;
+  height: 184px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.group-social-network {
+  cursor: pointer;
+  font-size: 32px;
+  padding: 30px 30px 0px 0px;
+}
+.group-social-network i {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: grey;
+}
+.row-link {
+  display: flex;
+}
+.bxl-twitter:hover {
+  margin-right: 5px;
+  color: #000000;
+  background-color: #ffffff;
+}
+.bxl-facebook-circle:hover {
+  color: #000000;
+  margin-right: 5px;
+  background-color: #ffffff;
+}
+.bxl-youtube:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+.bxl-instagram:hover {
+  color: #000000; /* thay đổi màu chữ của nút khi hover */
+  margin-right: 5px;
+  background-color: #ffffff; /* thay đổi màu nền của nút khi hover */
+  box-shadow: 0px 0px 5px #ffffff; /* đổ bóng khi chỏ chuột tới*/
+}
+.footer-link-header a {
+  color: white;
+  font-size: 16px;
+  letter-spacing: -1px;
+}
+.footer-link a {
+  color: #7e7e7e;
+  font-size: 13px;
+}
+.location {
+  width: 584px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  padding: 40px 0px;
+}
+.bx-current-location {
+  font-size: 17px;
+  color: #ffffff;
+  padding: 4px 15px 4px 40px;
+}
+#label-location {
+  font-size: 12px;
+  color: #7e7e7e;
+}
+.row-footer {
+  display: flex;
+}
+.menu-footer {
+  width: 584px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  padding: 40px 0px;
+  justify-content: flex-end;
+}
+.sub-menu-footer {
+  display: flex;
+  padding: 0px 40px;
+}
+.menu-footer li {
+  padding: 0px 5px;
+  font-size: 12px;
+}
+.menu-footer a {
+  color: #7e7e7e;
+}

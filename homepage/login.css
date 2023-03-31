@@ -71,9 +71,11 @@ header p {
 
   cursor: pointer;
 }
+
 i {
   font-size: 20px;
 }
+
 /*input form*/
 input[class="form-input"] {
   width: 240px;

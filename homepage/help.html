@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Help</title>
+        <link rel="stylesheet" href="help.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
+            rel='stylesheet'>
+    </head>
+    <body>
+        <div class="container">
+            <!--header1-->
+            <div class="header1">
+                <div class="frist">
+                    <ul>
+                        <li class="frist-logo"><i class='bx bxl-slack'></i></li>
+                        <li><h5 style="font-size: 20px;">T & H</h5></li>
+                    </ul>
+                </div>
+                <div class="end">
+                    <div class="content">
+                        <a href="">Find a store</a>
+                        <span class="stranger">|</span>
+                    </div>
+                    <div class="content">
+                        <a href="">Help</a>
+                        <span class="stranger">|</span>
+                    </div>
+                    <div class="content">
+                        <a href="">Join us</a>
+                        <span class="stranger">|</span>
+                    </div>
+                    <div class="content">
+                        <span href="" onclick="Signin()"
+                            style="cursor:pointer;">Signin</span>
+                    </div>
+                </div>
+            </div>
+            <!--header2-->
+            <div class="header2">
+                <div class="home">
+                    <i class='bx bx-home'></i>
+                    <h2>HOME</h2>
+                </div>
+                <div class="second">
+                    <ul>
+                        <li>Brand</li>
+                        <li>New-featured</li>
+                        <li>Men</li>
+                        <li>Women</li>
+                        <li>Kid</li>
+                        <li>Sale</li>
+                    </ul>
+
+                    <div clas="search">
+                        <i class='bx bx-search-alt'></i>
+                        <input type="text" placeholder="Search"
+                            class="search_input">
+                    </div>
+                </div>
+                <div class="buy">
+                    <i class='bx bx-heart'></i>
+                    <i class='bx bx-cart'></i>
+                </div>
+            </div>
+            <!--body-->
+            <div class="main">
+                <!--search-->
+                <div class="main-search">
+                    <h1 style="padding: 10px 10px;">GET HELP</h1>
+                    <div class="search-wrapper">
+                        <div class="input-holder">
+                            <input type="text" class="search-input"
+                                placeholder="Type to search" />
+                            <button class="search-icon"
+                                onclick="searchToggle(this, event);"><i
+                                    class='bx bx-search-alt'></i></button>
+                        </div>
+                    </div>
+                </div>
+                <!--QUICK ASSISTS-->
+                <div class="quick_assits">
+                    <div class="main-frist">
+                        <h1>QUICK ASSISTS</h1>
+                        <p>Answers to our most frequently asked questions are
+                            just
+                            one click away.</p>
+                    </div>
+                    <div class="spacing"
+                        style=" width: 1000px; margin-left:60px;"></div>
+                    <div class="main-second">
+                        <div class="col">
+                            <h3 class="title">DISPATCH & DELIVERY</h3>
+                            <ul class="col-title">
+                                <li>
+                                    <a href="">How do I get free delivery onNike</a>
+                                </li>
+                                <li>
+                                    <a href="">What are Nike's delivery options?</a>
+                                </li>
+                                <li>
+                                    <a href="">Can my Nike order be
+                                        dispatchedinternationally?</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h3 class="title">RETURNS</h3>
+                            <ul class="col-title">
+                                <li><a href=""> How do I return my Nike order?</a></li>
+                                <li><a href="">What is Nike's returns policy?</a></li>
+                                <li><a href="">Where is my refund?</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h3 class="title">NIKE MEMBERSHIP</h3>
+                            <ul class="col-title">
+                                <li><a href="">What is Nike Membership?</a></li>
+                                <li><a href="">How do I become a Nike Member?</a></li>
+                                <li><a href="">How do I get the most out of NRC
+                                        and
+                                        NTC?</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main-third">
+                        <div class="col">
+                            <h3 class="title">ORDERS</h3>
+                            <ul class="col-title">
+                                <li><a href="">Where is my Nike order?</a></li>
+                                <li><a href="">Can I change or cancel my Nike
+                                        order?</a></li>
+                                <li><a href="">What payment options can I use on
+                                        Nike orders?</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h3 class="title">PRODUCT INFO</h3>
+                            <ul class="col-title">
+                                <li><a href="">How do I get Nike’s sneaker
+                                        releases?</a></li>
+                                <li><a href="">How do I find the right size and
+                                        fit?</a></li>
+                                <li><a href="">What is Nike By You's
+                                        personalisation</a></li>
+                                <li><a href="">Do Nike shoes have a warranty?</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h3 class="title">CORPORATE</h3>
+                            <ul class="col-title">
+                                <li><a href="">Where can I get more info about
+                                        Nike,</a></li>
+                                <li><a href="">Where is the Nike store closest
+                                        to
+                                        me?</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--contact us-->
+                <div class="contact-us">
+                    <div class="contact-us-title">
+                        <h1>CONTACT US</h1>
+                    </div>
+                    <div class="spacing"></div>
+                    <div class="contact-us-content">
+                        <div class="col-contact-us">
+                            <i class='bx bxs-phone'></i>
+                            <h3>PRODUCTS & ORDERS</h3>
+                            <span class="row-contact-us">
+                                <a href="">12280903 (Viettel)</a>
+                                <a href="">12032487 (VTI)</a>
+                                <a href="">24 hours a day</a>
+                                <a href="">7 days a week</a>
+                            </span>
+                        </div>
+                        <div class="col-contact-us">
+                            <i class='bx bxl-messenger'></i>
+                            <div class="col-contact-us-content">
+                                <h3>PRODUCTS & ORDERS</h3>
+                                <span class="row-contact-us">
+                                    <a href="">Chat with us</a>
+                                    <a href="">24 hours a day</a>
+                                    <a href="">7 days a week</a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-contact-us">
+                            <i class='bx bxs-edit-location'></i>
+                            <h3>STORE LOCATOR</h3>
+                            <span class="row-contact-us">
+                                <a href="">Find Nike retail stores near you</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!--footer-->
+                <div class="footer">
+                    <div class="row-link">
+                        <div class="group-link">
+                            <div class="option">
+                                <ul>
+                                    <li class="footer-link-header"><a href="">FIND
+                                            A
+                                            STORE</a></li>
+                                    <li class="footer-link-header"><a href="">BECOME
+                                            A
+                                            MEMBER</a></li>
+                                    <li class=footer-link-header><a href="">SIGN
+                                            UP
+                                            FOR EMAIL</a></li>
+                                    <li class="footer-link-header"><a href="">Send
+                                            Us
+                                            Feedback</a></li>
+                                </ul>
+                            </div>
+                            <div class="get-help">
+                                <ul class="">
+                                    <li class="footer-link-header"><a
+                                            href="">GET HELP</a></li>
+                                    <li class="footer-link"><a href="">Order
+                                            Status</a></li>
+                                    <li class="footer-link"><a href=""> Delivery</a></li>
+                                    <li class="footer-link"><a href="">Returns</a></li>
+                                    <li class="footer-link"><a href="">Payment
+                                            Options</a></li>
+                                    <li class="footer-link"><a href="">Contact
+                                            Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="about-nike">
+                                <ul class="">
+                                    <li class="footer-link-header"><a
+                                            href="">ABOUT
+                                            NIKE</a></li>
+                                    <li class="footer-link"><a href="">News</a></li>
+                                    <li class="footer-link"><a href="">Careers</a></li>
+                                    <li class="footer-link"><a href="">Investors</a></li>
+                                    <li class="footer-link"><a href="">Sustainability</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="group-social-network">
+                            <i class='bx bxl-twitter' style="margin-right: 5px"></i>
+                            <i class='bx bxl-facebook-circle'
+                                style="margin-right: 5px"></i>
+                            <i class='bx bxl-youtube' style="margin-right: 5px"></i>
+                            <i class='bx bxl-instagram' style="margin-right:
+                                5px"></i>
+                        </div>
+                    </div>
+
+                    <div class="row-footer">
+                        <div class="location">
+                            <i class='bx bx-current-location'>
+                                <a href="" style="margin-left: 8px;color:white">Vietnam</a>
+                            </i>
+                            <div>
+                                <span id="label-location">2023 Nike, Inc.All
+                                    Rights Reserved</span>
+                            </div>
+                        </div>
+                        <div class="menu-footer">
+                            <ul class="sub-menu-footer">
+                                <li class="SubFooterDropdown-main" style="color:
+                                    #7e7e7e">Guides</li>
+                                <li class=" "><a href="">Terms of Sale</a></li>
+                                <li class=" "><a href="">Terms of Use</a></li>
+                                <li class=" "><a href="">Nike Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+        <script src="help.js"></script>
+    </html>
+    <!-- <div class="SubFooterDropdown-Menu">
+                                          <div class="SubFooterDropdown">
+                                        <button role="listbox"></button>
+                                    </div>   <div class="dropdown-menu-box">
+                                                <ul class="">
+                                                    <li><a href="">Nike
+                                                            AdaptNike</a></li>
+                                                    <li><a href="">AirNike</a></li>
+                                                    <li><a href="">Air Force 1</a></li>
+                                                    <li><a href="">Nike Air</a></li>
+                                                    <li><a href="">MaxNike</a></li>
+                                                    <li><a href="">FlyEaseNike</a></li>
+                                                    <li><a href="">FlyknitNike</a></li>
+                                                    <li><a href="">FlyleatherNike</a></li>
+                                                    <li><a href="">FreeNike</a></li>
+                                                    <li><a href="">JoyrideNike</a></li>
+                                                    <li><a href="">PegasusNike</a></li>
+                                                    <li><a href="">ReactNike</a></li>
+                                                    <li><a href="">Vaporfly</a></li>
+                                                    <li><a href=""></a></li>
+                                                </ul>
+                                            </div>
+                                        </div> -->
